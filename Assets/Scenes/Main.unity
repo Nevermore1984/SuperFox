@@ -261,7 +261,7 @@ Prefab:
         type: 2}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 3b7482f277ee82d419608eb4cc59c00a, type: 2}
+      objectReference: {fileID: 9100000, guid: 53c086d5f9a84404ca3a63adc94f81f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1bf68acfe7f80444a35dac023190d82, type: 2}
   m_IsPrefabAsset: 0
@@ -315,6 +315,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &461678336 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95033008967516106, guid: d1bf68acfe7f80444a35dac023190d82,
+    type: 2}
+  m_PrefabInternal: {fileID: 322366211}
 --- !u!114 &461678339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,20 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5d53c6ff06bec640b0f5394ae7c69ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!111 &461678340
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 461678333}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: bb0244352d9b3e7419b8f77eaf62aca9, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  anim: {fileID: 461678336}
 --- !u!1 &511741219
 GameObject:
   m_ObjectHideFlags: 0
