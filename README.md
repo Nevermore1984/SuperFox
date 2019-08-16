@@ -22,3 +22,17 @@ A：Played around with the animator and this functionality does exist. You just 
 有趣的是 这个人是自问自答，真好！
 
 目前的问题是，有点穿模，就是下落后，有时会半个身体卡在地里，不知道是为啥emmmmm
+
+
+
+2019.8.16
+
+研究了一下午，原来这个穿模问题的学名叫 “collision tunneling ”
+
+是个老大难问题鸭，试了两个办法
+
+1.让地面变成触发器
+
+2.将运动物体 `Rigidbody`组件的属性`Collision Detection`设置为`Continuous`
+
+好了很多，但是还是有一点问题

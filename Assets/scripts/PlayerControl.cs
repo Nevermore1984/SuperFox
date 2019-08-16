@@ -21,7 +21,7 @@ public class PlayerControl : MonoBehaviour {
 
     private float jumpSpeed=7;//跳跃速度    
 
-    private float activeFallSpeed=10;//主动下降垂直速度
+    private float activeFallSpeed=8;//主动下降垂直速度
 
     private float passiveFallSpeed = 2.5f;//被动下降垂直速度
 
@@ -49,6 +49,16 @@ public class PlayerControl : MonoBehaviour {
         
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        switch (collision.tag)
+        {
+            case "Land":
+                JumpIsOver();
+                break;
+        }
+    }
+
     private void refreshAnimation()
     {
         anim.SetBool("isjump", isJumping);
@@ -63,16 +73,7 @@ public class PlayerControl : MonoBehaviour {
     }
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        switch (collision.tag)
-        {
-            case "Land":
-                JumpIsOver();
-                break;
-
-        }
-    }
+   
 
 
     private void Jump()
@@ -170,4 +171,6 @@ public class PlayerControl : MonoBehaviour {
         isJumping = false;
         isFalling = 0;
     }
+
+
 }
