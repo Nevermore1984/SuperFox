@@ -46,9 +46,28 @@ public class PlayerControl : MonoBehaviour {
         Move();
         Jump();
         refreshAnimation();
-        
+
+        RayCheck();
+
+
     }
 
+    private void RayCheck()
+    {
+        if (isFalling != 0)
+        {
+            if (Physics2D.Raycast(this.transform.position, Vector2.down, 0.7f,
+                        1 << LayerMask.NameToLayer("Collider")))
+            {
+                Debug.Log("oaoaoao");
+
+                JumpIsOver();
+            }
+        }
+    }
+
+
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         switch (collision.tag)
@@ -58,6 +77,7 @@ public class PlayerControl : MonoBehaviour {
                 break;
         }
     }
+    
 
     private void refreshAnimation()
     {

@@ -123,7 +123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 227903182}
   - component: {fileID: 227903181}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced (3)
   m_TagString: Land
   m_Icon: {fileID: 0}
@@ -200,11 +200,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4998996838456010, guid: d1bf68acfe7f80444a35dac023190d82, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.548
+      value: -5.863
       objectReference: {fileID: 0}
     - target: {fileID: 4998996838456010, guid: d1bf68acfe7f80444a35dac023190d82, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.104
+      value: 0.329
       objectReference: {fileID: 0}
     - target: {fileID: 4998996838456010, guid: d1bf68acfe7f80444a35dac023190d82, type: 2}
       propertyPath: m_LocalPosition.z
@@ -239,6 +239,14 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4998996838456010, guid: d1bf68acfe7f80444a35dac023190d82, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4.080994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998996838456010, guid: d1bf68acfe7f80444a35dac023190d82, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 4.323056
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1bf68acfe7f80444a35dac023190d82, type: 2}
   m_IsPrefabAsset: 0
@@ -259,9 +267,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.013902451, y: -0.099990256}
+  m_Offset: {x: -0.013902449, y: -0.08279575}
   serializedVersion: 2
-  m_Radius: 0.077859044
+  m_Radius: 0.08447229
 --- !u!50 &461678335
 Rigidbody2D:
   serializedVersion: 4
@@ -335,7 +343,7 @@ GameObject:
   - component: {fileID: 511741220}
   - component: {fileID: 511741222}
   - component: {fileID: 511741221}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -518,7 +526,7 @@ GameObject:
   - component: {fileID: 621093399}
   - component: {fileID: 621093401}
   - component: {fileID: 621093398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced
   m_TagString: Land
   m_Icon: {fileID: 0}
@@ -632,7 +640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 685583790}
   - component: {fileID: 685583789}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced (1)
   m_TagString: Land
   m_Icon: {fileID: 0}
@@ -710,7 +718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 761154412}
   - component: {fileID: 761154414}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced_1
   m_TagString: Land
   m_Icon: {fileID: 0}
@@ -788,7 +796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1217087931}
   - component: {fileID: 1217087930}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced (4)
   m_TagString: Land
   m_Icon: {fileID: 0}
@@ -952,7 +960,7 @@ GameObject:
   - component: {fileID: 1683984586}
   - component: {fileID: 1683984588}
   - component: {fileID: 1683984587}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1057,7 +1065,7 @@ GameObject:
   - component: {fileID: 1749423070}
   - component: {fileID: 1749423072}
   - component: {fileID: 1749423071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1162,7 +1170,7 @@ GameObject:
   - component: {fileID: 1760488298}
   - component: {fileID: 1760488300}
   - component: {fileID: 1760488299}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1342,7 +1350,7 @@ GameObject:
   - component: {fileID: 1839163973}
   - component: {fileID: 1839163975}
   - component: {fileID: 1839163974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1446,7 +1454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1968546238}
   - component: {fileID: 1968546237}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced (2)
   m_TagString: Land
   m_Icon: {fileID: 0}
@@ -1524,7 +1532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1969120999}
   - component: {fileID: 1969121001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced_2
   m_TagString: Land
   m_Icon: {fileID: 0}
@@ -1603,7 +1611,7 @@ GameObject:
   - component: {fileID: 2003572768}
   - component: {fileID: 2003572770}
   - component: {fileID: 2003572769}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileset-sliced_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -36,3 +36,13 @@ A：Played around with the animator and this functionality does exist. You just 
 2.将运动物体 `Rigidbody`组件的属性`Collision Detection`设置为`Continuous`
 
 好了很多，但是还是有一点问题
+
+
+
+
+
+2019.8.26
+
+一直在看Ti9，LGD今年是真的技不如人＋心态不好，只能说恭喜OG
+
+加了个射线检测效果总体还不错
