@@ -35,6 +35,12 @@ public class PlayerControl : MonoBehaviour {
 
     private bool isRunning=false;
 
+
+    [SerializeField] private LayerMask m_WhatIsGround;                          // A mask determining what is ground to the character
+    [SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
+
+    const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
+
     void Start()
     {
 
@@ -47,10 +53,12 @@ public class PlayerControl : MonoBehaviour {
         Jump();
         refreshAnimation();
 
-        RayCheck();
+        
+        RayCheck2();
 
 
     }
+
 
     private void RayCheck()
     {
@@ -66,8 +74,21 @@ public class PlayerControl : MonoBehaviour {
         }
     }
 
+    private void RayCheck2()
+    {
+        if (isFalling != 0)
+        {
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
+            for (int i = 0; i < colliders.Length; i++)
+            {
+                if (colliders[i].gameObject != gameObject)
+                    JumpIsOver();
+            }
+        }
+    }
 
-    
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         switch (collision.tag)

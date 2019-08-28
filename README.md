@@ -46,3 +46,9 @@ A：Played around with the animator and this functionality does exist. You just 
 一直在看Ti9，LGD今年是真的技不如人＋心态不好，只能说恭喜OG
 
 加了个射线检测效果总体还不错
+
+
+
+2019.8.28
+
+使用[Physics2D](https://docs.unity3d.com/ScriptReference/Physics2D.html).OverlapCircleAll来检测是否到达地面 还是有瑕疵，头疼
