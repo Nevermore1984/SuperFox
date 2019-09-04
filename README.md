@@ -1,5 +1,5 @@
 # SuperFox
-自己做个游戏奥de 游戏日志
+练练手de 游戏日志
 
 2019.8.13
 随便整理了一下素材，简单写了一下跳跃，不理想
@@ -52,3 +52,14 @@ A：Played around with the animator and this functionality does exist. You just 
 2019.8.28
 
 使用[Physics2D](https://docs.unity3d.com/ScriptReference/Physics2D.html).OverlapCircleAll来检测是否到达地面 还是有瑕疵，头疼
+
+
+
+
+
+2019.9.4
+
+看来还是得用unity自带的重力才行啊
+
+练手练得差不多了  准备开始做原创了  
+
